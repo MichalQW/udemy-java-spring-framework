@@ -20,6 +20,10 @@ public class Task {
         // TODO document why this constructor is empty
     }
 
+    public void setId(final int id) {
+        this.id = id;
+    }
+
     public int getId() {
         return id;
     }
